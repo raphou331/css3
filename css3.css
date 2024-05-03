@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.rond1 {
+    background: #b60596;
+    border-radius: 75%;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rond2 {
+    background: rgb(185, 38, 156);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rond3 {
+    background: rgb(193, 86, 173);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rond4 {
+    background: rgb(189, 126, 183);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 450px;
+    height: 450px;
+    background-color: rgb(16, 8, 8);
+    /* pour aligné les cercles dans le carrée */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
